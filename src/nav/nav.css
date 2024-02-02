@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Varela Round", sans-serif;
+}
+
+.Day {
+    background-color: #ffffff; /* Default background color */
+}
+
+.Night {
+    background-color: #343a40; /* Dark background color */
+}
+
+.search-container {
+    background-color: rgba(0, 255, 255, 0.137);
+}
+
+.Night nav {
+    background-color: #343a40; /* Dark background color for nav */
+}
+
+.Night .card {
+    border-color: #ffffff; /* White border color for cards */
+}
+
+.search-container input {
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.cart button:hover {
+    border: 2px solid red !important;
+    color: red;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-container button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}

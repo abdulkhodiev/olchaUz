@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.monthly {
+    width: max-content;
+    font-size: 0.8rem;
+}
+
+.card {
+    border-color: #343a40; /* Default border color for cards */
+}
